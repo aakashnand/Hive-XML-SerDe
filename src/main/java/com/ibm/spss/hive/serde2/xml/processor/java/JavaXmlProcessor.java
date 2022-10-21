@@ -130,7 +130,6 @@ public class JavaXmlProcessor implements XmlProcessor {
     }
 
     /**
-     * @see com.ibm.spss.hive.serde2.xml.processor.java.XmlProcessor.XPathProcessor#getObjectValue(java.lang.Object, java.lang.String)
      */
     @SuppressWarnings("rawtypes")
     @Override
@@ -251,7 +250,7 @@ public class JavaXmlProcessor implements XmlProcessor {
     /**
      * Returns the string value for the node array
      * 
-     * @param node
+     * @param nodes
      *            the node array
      * @return the string value for the node array
      */
@@ -268,7 +267,7 @@ public class JavaXmlProcessor implements XmlProcessor {
     }
 
     /**
-     * @see com.ibm.spss.hive.serde2.xml.processor.java.XmlProcessor.XPathProcessor#getPrimitiveObjectValue(java.lang.Object,
+     * // @see com.ibm.spss.hive.serde2.xml.processor.java.XmlProcessor.XPathProcessor#getPrimitiveObjectValue(java.lang.Object,
      *      org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector.PrimitiveCategory)
      */
     @Override
